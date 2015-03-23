@@ -1,0 +1,23 @@
+{
+  "name": "sticky-header",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/IamEmpty/sticky-header",
+  "authors": [
+    "IamEmpty <dustonroad@gmail.com>"
+  ],
+  "description": "sticky footer script like a jQuery plugin",
+  "main": "js/sticky-header.js",
+  "keywords": [
+    "fixed",
+    "header",
+    "sticky"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
