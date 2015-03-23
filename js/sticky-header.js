@@ -19,7 +19,7 @@
 				offsetTop = settings.offsetTop;
 
 			// Hide on default
-			$fixedMenu.hide();
+			$fixedBlock.hide();
 
 			$(window).scroll(function() {
 
