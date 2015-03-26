@@ -1,3 +1,17 @@
+/*!
+ * Sticky header script v0.0.1
+ * https://github.com/IamEmpty/sticky-header
+ *
+ * Also you need to use jQuery
+ * http://jquery.com/
+ *
+ * Copyright 2015 IamEmpty
+ * Released under the MIT license
+ * https://github.com/IamEmpty/sticky-header/blob/master/LICENSE
+ *
+ * Date: 2015-03-26T15:11Z
+ */
+
 "use strict";
 
 (function ($) {
@@ -5,7 +19,7 @@
 	$.fn.stickyHeader = function( options ) {
 
 		var defaults = {
-			fixedBlock: '.new-post__main-text',
+			fixedBlock: '.header_fixed',
 			offsetTop: 470,
 			speed: 50
 		};
