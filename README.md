@@ -1,7 +1,7 @@
 # sticky-header
 jQuery plugin for sticky header
 
-You need to use jQuery with it plugin
+You need to use [jQuery](https://jquery.com/) with it plugin
 
 ## For begin
 ```
