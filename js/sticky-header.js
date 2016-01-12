@@ -12,7 +12,8 @@
  * Date: 2015-03-26T15:11Z
  */
 
-"use strict";
+'use strict';
+
 
 (function ($) {
 
