@@ -12,10 +12,9 @@
  * Date: 2015-03-26T15:11Z
  */
 
-'use strict';
-
 
 (function ($) {
+	'use strict';
 
 	$.fn.stickyHeader = function( options ) {
 
