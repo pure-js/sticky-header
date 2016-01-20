@@ -5,5 +5,5 @@ This plugin using [jQuery](https://jquery.com/)
 
 ## For beginning
 ```
-bower install sticky-header --save-dev
+bower install sticky-header --save
 ```
