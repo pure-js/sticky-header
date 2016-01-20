@@ -1,9 +1,9 @@
 # sticky-header
-jQuery plugin for sticky header
-
-This plugin using [jQuery](https://jquery.com/)
+[jQuery](https://jquery.com/) plugin for sticky header
 
 ## For beginning
 ```
 bower install sticky-header --save
+mocha
+npm run jshint
 ```

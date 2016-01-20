@@ -1,6 +1,6 @@
 {
   "name": "sticky-header",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "Sticky header jquery plugin",
   "main": "README.md",
   "directories": {
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/IamEmpty/sticky-header#readme",
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1"
+  },
+  "scripts": {
+    "jshint": "jshint js/*.js"
   }
 }
