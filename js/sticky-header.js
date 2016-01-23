@@ -1,5 +1,5 @@
 /*!
- * Sticky header script v0.0.1
+ * Sticky header script v0.1.2
  * https://github.com/IamEmpty/sticky-header
  *
  * Also you need to use jQuery
@@ -21,7 +21,8 @@
     var defaults = {
       fixedBlock: '.header_fixed',
       offsetTop: 470,
-      speed: 50
+      speed: 50,
+      hideClassIsExist: true
     };
 
 
@@ -30,10 +31,15 @@
       var settings = $.extend({}, defaults, options),
         $fixedBlock = $(settings.fixedBlock, this),
         speed = settings.speed,
-        offsetTop = settings.offsetTop;
+        offsetTop = settings.offsetTop,
+        hideClassIsExist = settings.hideClassIsExist;
 
-      // Hide on default
-      $fixedBlock.hide();
+      // Hide by default
+      if (hideClassIsExist === true) {
+        $fixedBlock.addClass('hide');
+      } else {
+        $fixedBlock.hide();
+      }
 
       $(window).scroll(function() {
 
