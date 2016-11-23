@@ -3,9 +3,9 @@
   "version": "0.1.2",
   "homepage": "https://github.com/IamEmpty/sticky-header",
   "authors": [
-    "IamEmpty"
+    "pure-js"
   ],
-  "description": "sticky footer script like a jQuery plugin",
+  "description": "sticky footer script",
   "main": "js/sticky-header.js",
   "keywords": [
     "fixed",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/IamEmpty/sticky-header.git"
+    "url": "git://github.com/pure-js/sticky-header.git"
   },
   "ignore": [
     "**/.*",
@@ -23,8 +23,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "jquery": "~2.2.0"
-  }
+  ]
 }

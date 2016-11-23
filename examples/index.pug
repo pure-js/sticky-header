@@ -2,7 +2,7 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    title Title
+    title Fixed header
   body
     .header_fixed
       h1 Fixed
@@ -10,8 +10,7 @@ html
       - var n = 0
       while n < 20
         h2 Error
-         span= n++
-    script(type='text/javascript', src='jquery.min.js')
-    script(type='text/javascript', src='sticky-header.js')
-    script(type='text/javascript').
-      $('body').stickyHeader();
+          span= n++
+    script(src='sticky-header.js')
+    script().
+      stickyHeader();

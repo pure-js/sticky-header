@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IamEmpty/sticky-header.git"
+    "url": "git+https://github.com/pure-js/sticky-header.git"
   },
   "keywords": [
     "jquery"
   ],
-  "author": "IamEmpty",
+  "author": "pure-js",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IamEmpty/sticky-header/issues"
+    "url": "https://github.com/pure-js/sticky-header/issues"
   },
-  "homepage": "https://github.com/IamEmpty/sticky-header#readme",
+  "homepage": "https://github.com/pure-js/sticky-header#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jshint": "^2.0.0",

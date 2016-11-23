@@ -1,4 +1,4 @@
-# sticky-header
+# Sticky header
 [jQuery](https://jquery.com/) plugin for sticky header
 
 ## Installation
