@@ -8,7 +8,7 @@
   },
   "scripts": {
     "jshint": "jshint js/*.js",
-    "test": "",
+    "test": "gulp test",
     "build": "pug examples -o build && cp src/js/sticky-header.js build",
     "watch": "pug examples -w -o build"
   },
@@ -17,7 +17,9 @@
     "url": "git+https://github.com/pure-js/sticky-header.git"
   },
   "keywords": [
-    "jquery"
+    "fixed",
+    "header",
+    "sticky"
   ],
   "author": "pure-js",
   "license": "MIT",
@@ -26,11 +28,10 @@
   },
   "homepage": "https://github.com/pure-js/sticky-header#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-jshint": "^2.0.0",
-    "jshint": "^2.9.1",
-    "mocha": "^2.3.4",
-    "pug": "^2.0.0-beta2",
-    "pug-cli": "^1.0.0-alpha6"
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-pug": "^3.1.0",
+    "mocha": "^2.3.4"
   }
 }
