@@ -1,12 +1,12 @@
 {
   "name": "sticky-header",
   "version": "0.1.2",
-  "homepage": "https://github.com/IamEmpty/sticky-header",
+  "homepage": "https://pure-js.github.io/sticky-header",
   "authors": [
     "pure-js"
   ],
   "description": "sticky footer script",
-  "main": "js/sticky-header.js",
+  "main": "src/sticky-header.js",
   "keywords": [
     "fixed",
     "header",

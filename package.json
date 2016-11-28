@@ -2,14 +2,14 @@
   "name": "sticky-header",
   "version": "0.1.2",
   "description": "Sticky header jquery plugin",
-  "main": "README.md",
+  "main": "src/sticky-header.js",
   "directories": {
     "example": "examples"
   },
   "scripts": {
     "jshint": "jshint js/*.js",
     "test": "",
-    "build": "pug examples -o build && cp bower_components/jquery/dist/jquery.min.js build && cp src/js/sticky-header.js build",
+    "build": "pug examples -o build && cp src/js/sticky-header.js build",
     "watch": "pug examples -w -o build"
   },
   "repository": {
