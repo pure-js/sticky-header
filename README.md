@@ -1,11 +1,11 @@
 # Sticky header
+![Build status](https://travis-ci.org/IamEmpty/sticky-header.svg?branch=master)
+
 Script for sticky header
 
-## Installation
+## Using
 ```
 bower install sticky-header --save
-mocha
-npm run jshint
 ```
 ## Contribution
 ```
