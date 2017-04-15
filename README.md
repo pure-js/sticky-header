@@ -1,11 +1,13 @@
-# sticky-header
-![Build status](https://travis-ci.org/IamEmpty/sticky-header.svg?branch=master)
+# Sticky header
+![Build status](https://travis-ci.org/pure-js/sticky-header.svg?branch=master)
 
-jQuery plugin for sticky header
+Script for sticky header
 
-This plugin using [jQuery](https://jquery.com/)
-
-## For beginning
+## Using
 ```
 bower install sticky-header --save
+```
+## Contribution
+```
+npm i -g mocha
 ```

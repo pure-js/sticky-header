@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Fixed header
+  body
+    .header_fixed
+      h1 Fixed
+    .container
+      - var n = 0
+      while n < 20
+        h2 Error
+          span= n++
+    script(src='sticky-header.js')
+    script().
+      stickyHeader();
