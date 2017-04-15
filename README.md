@@ -1,5 +1,6 @@
 # Sticky header
 Script for sticky header
+
 ## Installation
 ```
 bower install sticky-header --save
@@ -10,5 +11,4 @@ npm run jshint
 ```
 npm i -g mocha
 npm i -g jshint
-npm i -g bower
 ```
