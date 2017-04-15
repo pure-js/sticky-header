@@ -7,10 +7,10 @@
  */
 
 function stickyHeader({
-  $el = document.querySelector('.header-fixed'),
+  $el = document.querySelector('.header_fixed'),
   offsetTop = 470,
   hideClass = 'hidden'
-}) {
+} = {}) {
   // Hide by default
   hideClass ? $el.classList.add(hideClass) : $el.style.display = 'none';
 
