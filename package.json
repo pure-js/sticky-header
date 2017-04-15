@@ -7,7 +7,6 @@
     "example": "examples"
   },
   "scripts": {
-    "jshint": "jshint js/*.js",
     "test": "gulp test",
     "build": "pug examples -o build && cp src/js/sticky-header.js build",
     "watch": "pug examples -w -o build"
