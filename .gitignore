@@ -24,7 +24,7 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-# WebStorm files
+# WebStorm IDE files
 .idea
 
 # Bower

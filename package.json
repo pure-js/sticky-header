@@ -9,7 +9,7 @@
   "scripts": {
     "start": "gulp dev",
     "build": "gulp build",
-    "test": "gulp test",
+    "test": "eslint src/sticky-header.js",
     "watch": "pug examples -w -o build"
   },
   "repository": {

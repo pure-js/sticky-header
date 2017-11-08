@@ -1,5 +1,5 @@
-const gulp = require('gulp'),
-  plugins = require('gulp-load-plugins')();
+const gulp = require('gulp');
+const plugins = require('gulp-load-plugins')();
 
 function html() {
   return gulp.src('examples/index.pug')
@@ -11,8 +11,8 @@ function minifyJs() {
   return gulp.src('./src/*.js')
     .pipe(plugins.babili({
       mangle: {
-        keepClassNames: true
-      }
+        keepClassNames: true,
+      },
     }))
     .pipe(gulp.dest('./build'));
 }
