@@ -7,15 +7,20 @@
  */
 
 function stickyHeader({
-  $el = document.querySelector('.header_fixed'),
+  el = document.querySelector('.header_fixed'),
   offsetTop = 470,
-  hideClass = 'hidden'
+  hideClass = 'hidden',
 } = {}) {
+  const $el = el;
   // Hide by default
-  hideClass ? $el.classList.add(hideClass) : $el.style.display = 'none';
+  if (hideClass) {
+    $el.classList.add(hideClass);
+  } else {
+    $el.style.display = 'none';
+  }
 
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.body.scrollTop;
+  window.addEventListener('scroll', () => {
+    const { scrollTop } = document.body;
     if (scrollTop > offsetTop) {
       $el.classList.add(hideClass);
     } else {
